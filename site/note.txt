@@ -1,0 +1,99 @@
+0. GitHub user: joeyfang591
+0.1 git status
+0.2 git clone https://github.com/joeyfang591/coursera-test.git
+0.3 git checkout gh-pages  // switch workspace betwen branches
+
+0.4 git add .
+0.5 git commit -m "message to show"
+0.6 git push
+
+
+
+1. browser-sync start --server --directory --files "*"
+2. https://jsfiddle.net to simulate HTML
+3. Codepen.com
+4. Technologies that drive the Web:
+   HTML -- structure
+   CSS  -- Style
+   Javascript -- Behaviour
+5. HTML 5 at 2011 
+6. caniuse.com  --> show support of each browser
+7. <br> line break only has open tag, no close tag
+8. <hr> horizontal line only has open tag too
+9. <ul><li>  -- unorder list
+10. <ol><li> -- ordered list
+11. THree characters should always escape:
+     '<', '>', '&'
+    replace with '&lt;', '&gt;', '&amp;' 
+12. &nbsp;
+13. &copy;
+14. &quote;
+15. target="_blank" open a new WEB page in a new window
+16. http://www.csszengarden.com to see the powerful of CSS technology
+
+17. CSS declaration
+    selector {
+    	property: value;
+    }
+    eg, element selector
+    p{
+    	color: red;
+    }
+
+ 18. Theree type of CSS selector: 
+    Element, 
+    class (define with .) 
+    id (define with #)
+
+ 19. class selectoe
+     .blue{
+     	color: blue;
+     }
+     <p class="blue">....</p>
+     <div class="blue">....</div>
+
+ 20. id selector    
+ 	#name{
+ 	color: blue
+ 	}
+ 	<div id="name">...</div>
+
+ 21. Grouping selector
+ 	div, .blue{
+ 		color: blue;
+ 	}
+
+22. Element with class selector
+	p.big{
+		font-size: 20px;
+	}
+
+23. Child (direct) Selector
+	article > p {
+		color: blue;
+	}
+	<article>
+	  <p>...</p>
+	</article>
+
+24. Descendant Selector
+	article p {
+		color: blue;
+	}	  
+	<article>
+	  <div><p>...</p></div>
+	</article>
+
+25. Pseudo-class selector
+	selector:pseudo-class{
+		....
+	}
+
+	pseudo-class
+	:link, :visited, :hover, :active, :nth-child(...)
+
+26. Simple/Readable > Complicated/Tricky	
+27. Specificity:
+	style="..."
+	ID
+	Class, pseudo-class, attribute, # of Elements
